@@ -12,6 +12,9 @@ body {
 
 .content {
   padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
 }
 
 h2 {
@@ -37,6 +40,71 @@ form {
 #sign-in,
 #sign-up {
   width: 100%;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  line-height: 35px;
+}
+
+#sign-in-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border: 1px solid;
+}
+
+.form-checkbox-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-checkbox-control > label {
+  font-weight: normal;
+}
+
+.form-submit-control {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+
+#sign-up-form {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.form-group-horizontal-control {
+  display: flex;
+  gap: 20px;
+}
+
+.form-input-control {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group-horizontal-control .form-input-control {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 1;
+}
+
+#state,
+#city {
+  height: 30px;
+}
+
+.form-input-control > option {
+  font-size: 30px;
+}
+
+.form-radio-control > label {
+  font-weight: normal;
 }
 
 a {
